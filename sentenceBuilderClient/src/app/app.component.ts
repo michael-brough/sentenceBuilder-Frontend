@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import * as express from 'express'
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'sentenceBuilderClient';
+  title = 'Sentence Builder';
 }
